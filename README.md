@@ -1,7 +1,11 @@
 # IPLytics: Mega Cricket Analytics Platform (2008-2025)
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://iplytics-application.streamlit.app/)
+
 > [!TIP]
 > **Executive Summary:** This project is a state-of-the-art sports analytics pipeline covering over **1,100+ Indian Premier League matches** (2008-2025). Built with Python, Pandas, and Plotly, it features a complete live **Streamlit Dashboard** and includes a groundbreaking case study on the causal effects of the 2023 **Impact Player Rule**.
+> 
+> 🔗 **Live Application:** [https://iplytics-application.streamlit.app/](https://iplytics-application.streamlit.app/)
 
 ## 🎯 Business Problem & Core Objectives
 In modern franchise cricket, data-driven player valuation is the only way to maximize auction budgets. Historical "runs scored" or "wickets taken" are no longer sufficient metrics. This platform solves the "Valuation Problem" by deriving contextual efficiency metrics across 18 years of ball-by-ball data. 
@@ -20,13 +24,14 @@ Through rigorous Exploratory Data Analysis (EDA) using the `Plotly` graphing eng
 2. **Top Order Dominance:** The top 10 historical run-scorers minimize running fatigue by scoring over 50% of their runs through boundaries.
 3. **The Toss Fallacy:** Despite conventional wisdom, analysis over 1,188 matches shows the toss outcome holds a near perfectly negligible (approx 50/50) correlation with match victory.
 
-## 🖼️ Live Streamlit Dashboard
+## 🌐 Live Streamlit Dashboard
 
-> [!IMPORTANT]  
-> **TO DO (User):** Insert a screenshot of your live Streamlit Dashboard here!
-> `![Dashboard Screenshot](images/dashboard.png)`
+> [!NOTE]
+> 🚀 **Live Demo:** Access the interactive web dashboard directly in your browser:  
+> **👉 [https://iplytics-application.streamlit.app/](https://iplytics-application.streamlit.app/)**
 
-This project features a fully interactive web application. To run it locally:
+### Run Locally
+To run the dashboard locally on your machine:
 ```bash
 # Install requirements
 pip install -r requirements.txt
