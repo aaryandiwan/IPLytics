@@ -1,9 +1,9 @@
-# IPLytics: Mega Cricket Analytics Platform (2008-2025)
+# IPLytics: Mega Cricket Analytics Platform
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://iplytics-application.streamlit.app/)
 
 > [!TIP]
-> **Executive Summary:** This project is a state-of-the-art sports analytics pipeline covering over **1,100+ Indian Premier League matches** (2008-2025). Built with Python, Pandas, and Plotly, it features a complete live **Streamlit Dashboard** and includes a groundbreaking case study on the causal effects of the 2023 **Impact Player Rule**.
+> **Executive Summary:** This project is a state-of-the-art sports analytics pipeline covering over **1,100+ Indian Premier League matches**. Built with Python, Pandas, and Plotly, it features a complete live **Streamlit Dashboard** and includes a groundbreaking case study on the causal effects of the 2023 **Impact Player Rule**.
 > 
 > 🔗 **Live Application:** [https://iplytics-application.streamlit.app/](https://iplytics-application.streamlit.app/)
 

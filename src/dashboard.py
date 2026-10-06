@@ -44,7 +44,7 @@ df = load_data()
 # ============================================================
 # SIDEBAR FILTERS
 # ============================================================
-st.sidebar.image("https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Indian_Premier_League_Official_Logo.svg/200px-Indian_Premier_League_Official_Logo.svg.png", width=150)
+st.sidebar.image("https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Indian_Premier_League_Official_Logo.svg/500px-Indian_Premier_League_Official_Logo.svg.png", width=150)
 st.sidebar.title("🏏 IPLytics Filters")
 
 seasons = sorted(df['season'].unique())
@@ -61,7 +61,7 @@ filtered = df[(df['season'] >= selected_seasons[0]) & (df['season'] <= selected_
 # ============================================================
 # HEADER
 # ============================================================
-st.title("🏏 IPLytics: IPL Analytics Dashboard (2008-2025)")
+st.title("🏏 IPLytics: IPL Analytics Dashboard")
 st.markdown("*Powered by Cricsheet.org ball-by-ball data*")
 
 # KPI Cards
